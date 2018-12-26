@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fitur | E-Accounting</title>
+    <link rel="icon" type="image/icon" href="">
+    <link rel="stylesheet" type="text/css" href="css/style-login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <!-- navigasi -->
+        <ul>
+            <li><a href=""><img src="gambar/eacc1.png" width="50px" height="40px"> Home</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </header>
+
+    <!-- box input -->
+
+    <div id="box-input">
+
+        <form onsubmit="event.preventDefault(); signIn()">
+            <div id="box-form">
+                <h2>Input Informasi Barang</h2>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputBarang">Nama Barang</label>
+                            <input type="text" class="form-control" id="inputBarang" placeholder="Nama Barang">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputJumlah">Jumlah</label>
+                            <input type="password" class="form-control" id="inputJumlah" placeholder="Jumlah">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputSatuan">Satuan</label>
+                            <input type="password" class="form-control" id="inputSatuan" placeholder="Satuan">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputHargaBeli">Harga Beli</label>
+                            <input type="password" class="form-control" id="inputHargaBeli" placeholder="inputHargaBeli">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="inputHargaJual">harga Jual</label>
+                            <input type="password" class="form-control" id="inputHargaJual" placeholder="inputHargaJual">
+                        </div>
+                    </div>
+                    <button type="submit"> Input Barang</button>
+                </form>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
